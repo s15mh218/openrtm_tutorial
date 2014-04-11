@@ -50,12 +50,10 @@ To Create USB
 -------------
 You can freely create a USB thumbdrive using data maintained on the github repository [1_].
 
-On a computer where `git` is available, do:
+On a computer where `git` is available, do::
 
-```
-$ cd %YOUR_USBDRIVE%
-$ git clone https://github.com/tork-a/openrtm_tutorial.git
-```
+    $ cd %YOUR_USBDRIVE%
+    $ git clone https://github.com/tork-a/openrtm_tutorial.git
 
 That's it.
 
