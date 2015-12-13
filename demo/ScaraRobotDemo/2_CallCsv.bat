@@ -1,9 +1,10 @@
 echo CURRENT DIR=%cd%
-set usbdrive=%1
+REM set usbdrive=%0
+set usbdrive=%~d0
 if NOT DEFINED usbdrive set usbdrive=F:
 cd /d %usbdrive%\
 
-cd openrtm_tutorial/misc/VstoneScaraRobotRTC
+cd openrtm_tutorial\demo\ScaraRobotDemo\bin
 
 TIMEOUT /T 1
 
